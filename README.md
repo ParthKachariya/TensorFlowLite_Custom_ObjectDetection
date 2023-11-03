@@ -30,6 +30,9 @@ During the development of the app, there were no significant challenges encounte
 
 3) Minimal Approach: The app was designed with a minimalistic approach to maintain a lightweight and responsive user interface.
 
+# APK Destination
+can find released apk under the --> app/release 
+
 Overall, the app provides the functionalities as described in the test instructions. Users can experience image classification with unique bounding box colors and save snapshots seamlessly.
 
 Thank you for considering this Android Engineer Coding Test submission for the Upfeat Android Engineer position.
