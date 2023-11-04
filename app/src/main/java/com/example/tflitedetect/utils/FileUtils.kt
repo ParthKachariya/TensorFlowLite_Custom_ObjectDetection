@@ -1,4 +1,4 @@
-package com.namrata.tflitedetect.utils
+package com.xyberprince.tflitedetect.utils
 
 import android.graphics.Bitmap
 import android.graphics.Matrix

@@ -1,4 +1,4 @@
-package com.namrata.tflitedetect
+package com.xyberprince.tflitedetect
 
 import android.annotation.SuppressLint
 import android.content.res.Configuration
@@ -18,15 +18,15 @@ import androidx.camera.core.ImageAnalysis.OUTPUT_IMAGE_FORMAT_RGBA_8888
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import com.namrata.tflitedetect.*
+import com.xyberprince.tflitedetect.*
 import kotlinx.coroutines.*
 import org.tensorflow.lite.task.vision.detector.Detection
 import java.util.*
 import java.util.concurrent.ExecutorService
-import com.namrata.tflitedetect.databinding.FragmentCameraBinding
-import com.namrata.tflitedetect.utils.getScreenShot
-import com.namrata.tflitedetect.utils.rotate
-import com.namrata.tflitedetect.utils.storeBitmap
+import com.xyberprince.tflitedetect.databinding.FragmentCameraBinding
+import com.xyberprince.tflitedetect.utils.getScreenShot
+import com.xyberprince.tflitedetect.utils.rotate
+import com.xyberprince.tflitedetect.utils.storeBitmap
 import java.util.concurrent.Executors
 
 

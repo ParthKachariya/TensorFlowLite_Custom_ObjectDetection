@@ -8,6 +8,6 @@
 
     <fragment
         android:id="@+id/camera_fragment"
-        android:name="com.namrata.tflitedetect.CameraFragment"
+        android:name="com.xyberprince.tflitedetect.CameraFragment"
         android:label="CameraFragment"/>
 </navigation>

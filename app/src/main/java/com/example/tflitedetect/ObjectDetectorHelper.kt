@@ -1,5 +1,5 @@
 
-package com.namrata.tflitedetect
+package com.xyberprince.tflitedetect
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -26,7 +26,7 @@ class ObjectDetectorHelper(
   val objectDetectorListener: DetectorListener?
 ) {
 
-    // For this example this needs to be a var so it can be reset on changes. If the ObjectDetector
+    // For this xyberprince this needs to be a var so it can be reset on changes. If the ObjectDetector
     // will not change, a lazy val would be preferable.
     private var objectDetector: ObjectDetector? = null
 

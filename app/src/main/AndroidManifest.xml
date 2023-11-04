@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" package="com.namrata.tflitedetect">
+    xmlns:tools="http://schemas.android.com/tools" package="com.xyberprince.tflitedetect">
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -23,7 +23,7 @@
         tools:ignore="AllowBackup"
         android:requestLegacyExternalStorage="true">
         <activity
-            android:name=".MainActivity"
+            android:name="com.xyberprince.tflitedetect.MainActivity"
             android:clearTaskOnLaunch="true"
             android:theme="@style/Theme.TFLiteDetect"
             android:exported="true"

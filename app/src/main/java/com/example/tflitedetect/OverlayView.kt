@@ -1,4 +1,4 @@
-package com.namrata.tflitedetect
+package com.xyberprince.tflitedetect
 
 import android.content.Context
 import android.graphics.*

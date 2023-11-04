@@ -1,4 +1,4 @@
-package com.namrata.tflitedetect
+package com.xyberprince.tflitedetect
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -7,7 +7,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import com.namrata.tflitedetect.databinding.ActivityMainBinding
+import com.example.tflitedetect.databinding.ActivityMainBinding
 
 private val PERMISSIONS_REQUIRED = arrayOf(
     Manifest.permission.CAMERA,

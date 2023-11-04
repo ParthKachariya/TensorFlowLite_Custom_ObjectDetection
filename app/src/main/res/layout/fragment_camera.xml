@@ -19,7 +19,7 @@
         app:layout_constraintBottom_toTopOf="@id/container"
         app:scaleType="fillStart"/>
 
-    <com.namrata.tflitedetect.OverlayView
+    <com.xyberprince.tflitedetect.OverlayView
         android:id="@+id/overlay"
         android:layout_height="0dp"
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         <SeekBar
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
+            android:layout_marginHorizontal="10dp"
             android:id="@+id/seek_bar"
             android:layout_gravity="center_vertical"
             />
@@ -69,7 +69,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_switch_cam"
+        android:src="@android:drawable/ic_popup_sync"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp"
@@ -78,17 +78,16 @@
         />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_take_photo"
-        app:layout_constraintBottom_toTopOf="@id/container"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:paddingBottom="40dp"
         android:id="@+id/btn_take_photo"
         style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@null"
-        />
+        android:paddingBottom="20dp"
+        android:src="@android:drawable/ic_menu_camera"
+        app:layout_constraintBottom_toTopOf="@id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
