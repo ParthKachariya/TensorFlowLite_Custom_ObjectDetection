@@ -1,38 +1,39 @@
-# Upfeat Android Engineer Coding Test 2023
-This document provides essential information about the Android Engineer Coding Test for Upfeat's Android Engineer position.
+# TensorFlow Lite Custom Object Detection Coding Test
+This document provides essential information about the Android Coding Test from upfeat.
 
 # App Description
-This Android application is designed to demonstrate image classification using a custom bounding box, as well as saving snapshots to the device's storage. The app offers unique colors for each category's bounding box in every session.
+The purpose of this Android application is to show how to classify images using a personalized bounding box and store screenshots to the device's storage. Every session, the application provides different colors for the enclosing box of each category.
 
 # Steps to Build and Run the App
+Note: TensorFlow Lite is best practiced on a Physical Device, In my case I used OnePlus 3 running Android 9.0.
+
 To build and run the app, follow these steps:
 
 1) Open Android Studio.
 2) Import the project into Android Studio.
-3) Choose a suitable emulator or device.
+3) Choose a device.
 4) Click the "Run" button.
 
-Please note that the snapshots captured by the app will be saved in either the Internal Storage/Pictures/TFLiteDetect or Internal Storage/TFLiteDetect directory, depending on the device's operating system version.
+Please be aware that, depending on the operating system version of the device, the snapshots taken by the program will be saved in either the Internal Storage/Pictures/TFLiteDetect or Internal Storage/TFLiteDetect directory.
+
 
 # Assumptions Made
 While developing this app, the following assumptions were made:
 
-1) Suitable Conditions for Image Classification: The app assumes optimal lighting conditions and good camera quality to achieve accurate image classification.
+1) Appropriate Lighting and Camera Quality: In order to achieve precise image classification, the program makes the assumption that the lighting and camera quality are ideal.
 
-2) Minimum SDK Version: The app has a minimum SDK version of 21, meaning it is compatible with Android devices running Android 5.0 (Lollipop) and above.
+2) Minimum SDK Version: Android 5.0 (Lollipop) and later Android smartphones can use the app because it has a minimum SDK version of 21.
 
 # Challenges Faced and Their Solutions
-During the development of the app, there were no significant challenges encountered. However, ensuring smooth and lag-free performance was a priority. This was achieved by implementing the following strategies:
+There were no major obstacles to overcome in the course of developing the software. But maintaining lag-free and seamless performance was crucial. The following tactics were used to accomplish this:
 
-1) Use of LiveData: LiveData is employed to ensure that data is observed and updated in real-time, enhancing the user experience.
+1) LiveData: By ensuring that data is monitored and updated in real-time, live data is used to improve user experience.
 
-2) Use of Coroutines: Coroutines are used for managing asynchronous operations, allowing the app to perform background tasks efficiently without blocking the main thread.
+2) Coroutines: Coroutines are used to manage asynchronous operations, which frees up the main thread to perform background tasks effectively.
 
-3) Minimal Approach: The app was designed with a minimalistic approach to maintain a lightweight and responsive user interface.
-
+3) UI Changes: The app was designed keeping functionality as a priority without major UI changes.
+   
 # APK Destination
-can find released apk under the --> app/release 
+Located under the --> app/release 
 
-Overall, the app provides the functionalities as described in the test instructions. Users can experience image classification with unique bounding box colors and save snapshots seamlessly.
-
-Thank you for considering this Android Engineer Coding Test submission for the Upfeat Android Engineer position.
+All things considered, the app offers the features outlined in the test guidelines. Users can effortlessly save snapshots and experience image classification with distinct bounding box colors. Items that are confidently detected to be below the user-specified threshold is not shown.
